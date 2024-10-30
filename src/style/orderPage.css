@@ -1,0 +1,114 @@
+.order {
+  padding: var(--abs-8) 0;
+}
+.order_left {
+    float: left;
+    margin-right: var(--abs-16);;
+  width: 40%;
+  display: grid;
+  gap: var(--abs-16);
+}
+.order_left_boxone{
+    border: 1px solid var(--grey-400);
+    padding: var(--abs-8);
+    border-radius: var(--abs-4);
+    line-height: var(--font-line-height-150);
+}
+.order_left_boxone p{
+    font-size: var(--font-size-8);
+}
+.order_left_boxone div {
+    margin: var(--abs-4) 0;
+    display: flex;
+    gap: var(--abs-8);
+}
+.order_left_boxone section{
+    display: flex;
+    gap: var(--abs-16);
+    margin-left: var(--abs-8);
+}
+.order_left_boxone section p{
+    display: list-item;
+}
+.order_left_boxone div p{
+    font-size: var(--font-size-10);
+}
+.order_left_boxone div span{
+    padding: var(--abs-4);
+  border: 1px solid var(--blue-700);
+  background-color: var(--blue-700);
+  color: var(--white);
+  border-radius: var(--abs-8);
+  margin-right: 3px;
+}
+.order_left_boxtwo{
+    border: 1px solid var(--grey-400);
+    padding: var(--abs-8);
+    border-radius: var(--abs-4);
+}
+.order_left_boxtwo_time{
+    display: flex;
+    gap: var(--abs-36);
+    margin: var(--abs-4) 0;
+}
+.order_left_boxtwo_text span{
+    font-size: var(--font-size-10);
+    font-weight: 500;
+}
+.order_left_boxtwo_room{
+    margin-top: var(--abs-8);
+    padding-top: var(--abs-4);
+    border-top: 1px solid var(--grey-400);
+}
+.order_left_boxthree{
+    border: 1px solid var(--grey-400);
+    padding: var(--abs-8);
+    border-radius: var(--abs-4);
+}
+.order_left_boxthree section {
+    margin: var(--abs-4) 0;
+    display: flex;
+    gap: var(--abs-12);
+    align-items: center;
+}
+.order_left_boxthree section div{
+    display: flex;
+    gap: var(--abs-4);
+}
+.order_left_boxthree section div button{
+    padding: var(--abs-4);
+}
+.order_left_boxthree h2 span{
+    color: red;
+    font-size: var(--font-size-18);
+}
+.order_left_boxfour{
+    border: 1px solid var(--grey-400);
+    padding: var(--abs-8);
+    border-radius: var(--abs-4);
+    display: grid;
+    gap: var(--abs-8);
+}
+
+
+
+
+.order_right {
+  width: 60%;
+  display: grid;
+  gap: var(--abs-16);
+}
+.order_right_boxone{
+    border: 1px solid var(--grey-400);
+    padding: var(--abs-8);
+    border-radius: var(--abs-4);
+}
+.order_right_boxone p a{
+    color: var(--blue-700);
+}
+.order_right_boxtwo{
+    border: 1px solid var(--grey-400);
+    padding: var(--abs-8);
+    border-radius: var(--abs-4);
+    height: 1000px;
+}

@@ -20,17 +20,17 @@ const Router = (props: Props) => {
     <>
       <Routes>
         <Route path="/" element={<LayoutWebSite />}>
-          <Route index element={<Home />} />
-          <Route path="/filter" element={<Filter />} />
-          <Route path="/detail" element={<Detail />} />
-          <Route path="/order" element={<Order />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/profile/account" element={<Account />} />
-          <Route path="/profile/favovite" element={<Favorite />} />
-          <Route path="/profile/myhotel" element={<MyHotel />} />
-          <Route path="/profile/seting" element={<Seting />} />
-          <Route path="/test" element={<Test />} />
+            <Route index element={<Home/>} />
+            <Route path="/filter" element={<Filter/>} />
+            <Route path="/detail" element={<Detail/>} />
+            <Route path="/order" element={<Order/>} />
+            <Route path="/register" element={<Register/>} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/profile/account" element={<Account/>} />
+            <Route path="/profile/favovite" element={<Favorite/>} />
+            <Route path="/profile/myhotel" element={<MyHotel/>} />
+            <Route path="/profile/seting" element={<Seting/>} />
+            <Route path="/test" element={<Test/>} />
         </Route>
       </Routes>
     </>

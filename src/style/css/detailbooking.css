@@ -124,6 +124,43 @@
   font-size: var(--font-size-12);
   width: 100%;
 }
+.detail_block_five table h6{
+  cursor: pointer;
+}
+.detail_block_five table div{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(58, 56, 56, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.detail_block_five table div img{
+  padding-left: var(--abs-8);
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+.detail_block_five table div section{
+  height: 400px;
+  overflow: auto;
+}
+.detail_block_five table div section img{
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+}
+.detail_block_five table div a{
+  font-size: var(--abs-24);
+  padding-right: var(--abs-8);
+  color: white;
+  cursor: pointer;
+}
 .detail_block_five table p {
   margin-left: var(--abs-8);
   font-size: var(--font-size-8);
@@ -232,7 +269,6 @@ th {
 .detail_block_seven_comment_hiden {
   margin-top: var(--abs-8);
   transition: right 0.5s ease; /* Hiệu ứng chuyển động */
-  display: none;
   border: 1px solid var(--grey-600);
   border-radius: var(--abs-8);
   padding: var(--abs-8);

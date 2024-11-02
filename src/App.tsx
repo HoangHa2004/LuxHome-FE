@@ -1,11 +1,15 @@
-import "./App.scss";
-
+import { useState } from "react";
+import "./App.css";
+import { Button, Col, Row } from "antd";
+import Router from "./router";
 function App() {
-	return (
-		<>
-			<h1>Hello</h1>
-		</>
-	);
+
+
+  return (
+    <>
+     <Router></Router>
+    </>
+  );
 }
 
 export default App;
